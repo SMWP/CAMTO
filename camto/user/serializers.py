@@ -7,7 +7,6 @@ from django.contrib.auth import authenticate
 
 User = get_user_model()
 
-
 class UserCreateSerializer(serializers.Serializer):
     email = serializers.EmailField(required=True)
     username = serializers.CharField(required=True)

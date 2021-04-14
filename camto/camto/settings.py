@@ -127,6 +127,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'camto.wsgi.application'
 
+AUTH_USER_MODEL = 'user.User'
 
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
